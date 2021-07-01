@@ -1,5 +1,18 @@
 body {
   background-color: white;
+  margin: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+}
+
+header {
+  text-align: center;
 }
 
 #image {
@@ -8,13 +21,34 @@ body {
 }
 
 #title {
-  text-align: center;
+  padding: 10px;
 }
 
 #img-div {
   text-align: center;
+  padding: 10px;
+  margin: 0px;
 }
 
 #tribute-info {
-  text-align: left;
+  line-height: 3;
+  text-align: center;
+}
+
+#tribute-title {
+  border-style: solid;
+  padding: 5px;
+  width: 400px;
+  margin: 12px 395px;
+  margin: auto;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px;
 }
